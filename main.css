@@ -1,0 +1,642 @@
+body {
+  font-family: "Barlow", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: gray;
+  width: 100%;
+}
+.text-btn {
+  color: #6d676b;
+}
+
+#navBar {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Barlow", sans-serif;
+  color: #201e1f;
+  z-index: 9;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #6d676b;
+  font-family: "Barlow", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: none;
+}
+
+.menuBtn {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #d4c1cb;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.menuBtn:hover {
+  color: #201e1f;
+  font-weight: bold;
+  border-bottom: 1px solid #383034;
+  cursor: pointer;
+}
+
+#mainFlexer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  justify-content: center;
+  height: 700px;
+}
+
+.flexer {
+  /* margin: 0 50px ; */
+  border-radius: 1000px;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.head {
+  width: 50%;
+  font-size: 40px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+#About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+#AboutBody {
+  width: 50%;
+  font-size: 22px;
+  text-align: justify;
+}
+
+#Education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 250px;
+}
+
+#EducationBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+#EducationSchool,
+#EducationCollege {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: row;
+  box-shadow: 10px 20px 20px 0px black;
+  padding-right: 20px;
+  margin-bottom: 70px;
+  /* width: 50%; */
+  /* background-color: rgb(232, 228, 228); */
+  /* border-radius: 20px; */
+}
+
+.eduPic {
+  height: 220px;
+  width: 220px;
+  /* border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px; */
+  margin-right: 50px;
+}
+.eduPic:hover {
+  cursor: pointer;
+  animation: expander 10s ease-in-out 0s 1;
+}
+
+@keyframes expander {
+  0% {
+    height: 220px;
+    width: 220px;
+  }
+  50% {
+    height: 400px;
+    width: 400px;
+  }
+  100% {
+    height: 220px;
+    width: 220px;
+  }
+}
+
+.headTextEducation {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text1 {
+  color: black;
+  font-size: 30px;
+}
+.text2 {
+  margin-bottom: 15px;
+}
+
+.text3 {
+  color: black;
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.text4 {
+  color: black;
+  font-size: 17px;
+  margin-left: 20px;
+}
+
+.text5 {
+  color: black;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* DETERMINED */
+#flex1 {
+  height: 180px;
+  width: 180px;
+  font-size: 29px;
+  margin-left: 0;
+  background-color: #faaa8d;
+  animation: flex1 3s ease-in-out 0s 1 reverse;
+}
+#flex1:hover {
+  cursor: pointer;
+  animation: flex1hover 2s ease-in-out 0s 1;
+}
+
+@keyframes flex1hover {
+  0% {
+    font-size: 20px;
+  }
+  25% {
+    font-size: 29px;
+  }
+  50% {
+    font-size: 20px;
+  }
+  100% {
+    font-size: 29px;
+  }
+}
+
+@keyframes flex1 {
+  0% {
+    background-color: #faaa8d;
+    height: 180px;
+    width: 180px;
+    font-size: 29px;
+    color: black;
+  }
+  50% {
+    background-color: #faaa8d2d;
+    height: 150px;
+    width: 150px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.253);
+  }
+  100% {
+    background-color: #faaa8d;
+    height: 180px;
+    width: 180px;
+    font-size: 29px;
+    color: black;
+  }
+}
+
+/* GRAPHICS */
+#flex2 {
+  height: 230px;
+  width: 230px;
+  background-color: #201e1f;
+  color: white;
+  font-size: 40px;
+  animation: flex2 3s ease-in-out 0s 1 reverse;
+}
+#flex2:hover {
+  cursor: pointer;
+  animation: flex2hover 2s ease-in-out 0s 1;
+}
+
+@keyframes flex2hover {
+  0% {
+    font-size: 30px;
+  }
+  25% {
+    font-size: 40px;
+  }
+  50% {
+    font-size: 30px;
+  }
+  100% {
+    font-size: 40px;
+  }
+}
+
+@keyframes flex2 {
+  0% {
+    background-color: #201e1f;
+    height: 230px;
+    width: 230px;
+    font-size: 40px;
+    color: white;
+  }
+  50% {
+    background-color: #201e1f3b;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.151);
+  }
+  100% {
+    background-color: #201e1f;
+    height: 230px;
+    width: 230px;
+    font-size: 40px;
+    color: white;
+  }
+}
+
+/*  PUNCTUAL */
+#flex3 {
+  height: 230px;
+  width: 230px;
+  margin-top: 200px;
+  background-color: #feefdd;
+  font-size: 40px;
+  animation: flex3 3s ease-in-out 0s 1 reverse;
+}
+#flex3:hover {
+  cursor: pointer;
+  animation: flex3hover 2s ease-in-out 0s 1;
+}
+
+@keyframes flex3hover {
+  0% {
+    font-size: 30px;
+  }
+  25% {
+    font-size: 40px;
+  }
+  50% {
+    font-size: 30px;
+  }
+  100% {
+    font-size: 40px;
+  }
+}
+
+@keyframes flex3 {
+  0% {
+    background-color: #feefdd;
+    height: 230px;
+    width: 230px;
+    color: black;
+    font-size: 40px;
+  }
+  50% {
+    background-color: #feefdd31;
+    height: 200px;
+    width: 200px;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.164);
+  }
+  100% {
+    background-color: #feefdd;
+    height: 230px;
+    width: 230px;
+    color: black;
+    font-size: 40px;
+  }
+}
+
+/* PHOTOGRAPHY */
+#flex4 {
+  margin-top: 70px;
+  height: 280px;
+  width: 280px;
+  background-color: #ff4000;
+  font-size: 37px;
+  animation: flex4 3s ease-in-out 0s 1 reverse;
+}
+#flex4:hover {
+  cursor: pointer;
+  animation: flex4hover 2s ease-in-out 0s 1;
+}
+
+@keyframes flex4hover {
+  0% {
+    font-size: 33px;
+  }
+  25% {
+    font-size: 37px;
+  }
+  50% {
+    font-size: 33px;
+  }
+  100% {
+    font-size: 37px;
+  }
+}
+
+@keyframes flex4 {
+  0% {
+    background-color: #ff4000;
+    height: 280px;
+    width: 280px;
+    font-size: 37px;
+    color: black;
+  }
+  50% {
+    background-color: #ff400029;
+    height: 260px;
+    width: 260px;
+    font-size: 33px;
+    color: rgba(255, 255, 255, 0.164);
+  }
+  100% {
+    background-color: #ff4000;
+    height: 280px;
+    width: 280px;
+    font-size: 37px;
+    color: black;
+  }
+}
+
+/*  COMPUTER */
+#flex5 {
+  margin-top: 90px;
+  background-color: #f3af52;
+  height: 380px;
+  width: 380px;
+  font-size: 50px;
+  margin-right: 0;
+  animation: flex5 3s ease-in-out 0s 1 reverse;
+}
+#flex5:hover {
+  cursor: pointer;
+  animation: flex5hover 2s ease-in-out 0s 1;
+}
+
+@keyframes flex5hover {
+  0% {
+    font-size: 45px;
+  }
+  25% {
+    font-size: 50px;
+  }
+  50% {
+    font-size: 45px;
+  }
+  100% {
+    font-size: 50px;
+  }
+}
+
+@keyframes flex5 {
+  0% {
+    background-color: #f3af52;
+    height: 380px;
+    width: 380px;
+    font-size: 50px;
+    color: black;
+  }
+  50% {
+    background-color: #f3b0522d;
+    height: 350px;
+    width: 350px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.164);
+  }
+  100% {
+    background-color: #f3af52;
+    height: 380px;
+    width: 380px;
+    font-size: 50px;
+    color: black;
+  }
+}
+
+/* KEEN LEARNER */
+#flex6 {
+  height: 150px;
+  width: 150px;
+  margin-top: 200px;
+  background-color: #feefdd;
+  font-size: 25px;
+  animation: flex6 3s ease-in-out 0s 1 reverse;
+}
+#flex6:hover {
+  cursor: pointer;
+  animation: flex6hover 2s ease-in-out 0s 1;
+}
+
+@keyframes flex6hover {
+  0% {
+    font-size: 20px;
+  }
+  25% {
+    font-size: 25px;
+  }
+  50% {
+    font-size: 20px;
+  }
+  100% {
+    font-size: 25px;
+  }
+}
+
+@keyframes flex6 {
+  0% {
+    background-color: #feefdd;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    color: black;
+  }
+  50% {
+    background-color: #feefdd2e;
+    height: 120px;
+    width: 120px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.164);
+  }
+  100% {
+    background-color: #feefdd;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    color: black;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  /* COVER PAGE */
+  #coverPage {
+    background-size: 400px 200px;
+  }
+  #mainBoxFlex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  #profileImage {
+    height: 200px;
+    width: 200px;
+    margin-top: 25%;
+  }
+  #profileText {
+    margin: 0;
+  }
+  #name {
+    font-size: 45px;
+    margin-top: 10%;
+  }
+  #tagLine {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 20px;
+  }
+}
+
+/*  iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #coverPage {
+    background-size: 500px 300px;
+  }
+  #mainBoxFlex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  #profileImage {
+    height: 290px;
+    width: 290px;
+    margin-top: 20%;
+  }
+  #profileText {
+    margin: 0;
+  }
+  #name {
+    font-size: 55px;
+    margin-top: 40px;
+  }
+  #tagLine {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 20px;
+  }
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1022px) {
+  #coverPage {
+    background-size: 600px 350px;
+  }
+  #mainBoxFlex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  #profileImage {
+    height: 300px;
+    width: 300px;
+    margin-top: 30%;
+  }
+  #profileText {
+    margin: 0;
+  }
+  #name {
+    font-size: 60px;
+    margin-top: 50px;
+  }
+  #tagLine {
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 20px;
+  }
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+  #coverPage {
+    background-size: 1000px 500px;
+  }
+  #mainBoxFlex {
+    margin-left: 10%;
+  }
+  #profileImage {
+    height: 270px;
+    width: 270px;
+  }
+  #profileText {
+    margin: 0;
+    margin-left: 5%;
+  }
+  #name {
+    font-size: 45px;
+    margin-top: 50px;
+  }
+  #tagLine {
+    font-size: 27px;
+    text-align: center;
+  }
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) and (max-width: 1290px) {
+  #mainBoxFlex {
+    margin-left: 12%;
+  }
+  #profileImage {
+    height: 350px;
+    width: 350px;
+    margin-top: 8%;
+  }
+  #profileText {
+    margin: 0;
+    margin-left: 5%;
+  }
+  #name {
+    font-size: 55px;
+    margin-top: 150px;
+  }
+  #tagLine {
+    font-size: 35px;
+    text-align: center;
+  }
+}
