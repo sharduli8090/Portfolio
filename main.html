@@ -1,105 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
-    <link href="main.css" rel="stylesheet">
-    <link rel="icon" href="./assets/s.svg" type="image/icon">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="navBar">
-        Sharduli Pandey
-    </div>
-    <div id="menu">
-        <div class="menuBtn">HOME</div>
-        <a href="#educationBox">
-        <div class="menuBtn">EDUCATION</div>
-        </a>
-        <a href="#aboutBox">
-        <div class="menuBtn">ABOUT</div>
-        </a>
-        <a href="#projectBox">
-        <div class="menuBtn">PROJECTS</div>
-        </a>
-        <a href="#connectBox">
-        <div class="menuBtn">CONNECT</div>
-        </a>
-        <a href="#mesageBox">
-        <div class="menuBtn">MESSAGE</div>
-        </a>
-    </div>
-    <div id="mainFlexer">
-        <div id="flex3" class="flexer">PUNCTUAL</div>
-        <div id="flex6" class="flexer">KEEN<br>LEARNER</div>
-        <div id="flex4" class="flexer">PHOTOGRAPHY</div>
-        <div id="flex5" class="flexer">COMPUTER SCIENCE ENTHUSIAST</div>
-        <div id="flex1" class="flexer">DETERMINED</div>
-        <div id="flex2" class="flexer">GRAPHIC DESIGNING</div>
-    </div>
-
-<a id="aboutBox">
-    <div id="About">
-        <div id="AboutHead" class="head">ABOUT</div>
-        <div id="AboutBody">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eum placeat sapiente alias! Placeat veritatis architecto porro aspernatur voluptates, ipsam vero nesciunt fugiat expedita perspiciatis laborum soluta iste odit voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eum placeat sapiente alias! Placeat veritatis architecto porro aspernatur voluptates, ipsam vero nesciunt fugiat expedita perspiciatis laborum soluta iste odit voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eum placeat sapiente alias! Placeat veritatis architecto porro aspernatur voluptates, ipsam vero nesciunt fugiat expedita perspiciatis laborum soluta iste odit voluptatibus.
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HomePage</title>
+        <link href="main.css" rel="stylesheet">
+        <link rel="icon" href="./assets/s.svg" type="image/icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navBar">
+            Sharduli Pandey
         </div>
-    </div>
-    </a>
+        <div id="menu">
+            <div class="menuBtn">HOME</div>
+            <a href="#educationBox" class="menuAnchor">
+                <div class="menuBtn">EDUCATION</div>
+            </a>
+            <a href="#aboutBox" class="menuAnchor">
+                <div class="menuBtn">ABOUT</div>
+            </a>
+            <a href="#projectBox" class="menuAnchor">
+                <div class="menuBtn">PROJECTS</div>
+            </a>
+            <a href="#connectBox" class="menuAnchor">
+                <div class="menuBtn">CONNECT</div>
+            </a>
+            <a href="#mesageBox" class="menuAnchor">
+                <div class="menuBtn">MESSAGE</div>
+            </a>
+        </div>
+        <div id="mainFlexer">
+            <div id="flex3" class="flexer">PUNCTUAL</div>
+            <div id="flex6" class="flexer">KEEN<br>LEARNER</div>
+            <div id="flex4" class="flexer">PHOTOGRAPHY</div>
+            <div id="flex5" class="flexer">COMPUTER SCIENCE ENTHUSIAST</div>
+            <div id="flex1" class="flexer">DETERMINED</div>
+            <div id="flex2" class="flexer">GRAPHIC DESIGNING</div>
+        </div>
 
-    <a id="educationBox">
-        <div id="Education">
-            <div id="EducationHead" class="head">EDUCATION</div>
-            <div id="EducationBody">
-                <div id="EducationSchool">
-                    <img src="./assets/mpvm.jpg" class="eduPic"> 
-                    <div class="textEducation">
-                        <div class="text1">
-                            Higher Studies
-                        </div>
-                        <div class="text2">
-                            Completed From
-                        </div>
-                        <div class="text3">
-                        Maharshi Patanjali Vidya Mandir Prayagraj, Uttar Pradesh                        
-                    </div>
-                    <div class="text4">
-                        Central Board of Secondary Education
-                    </div>
-                    <div class="text5">
-                        Class 10th (2018) Percentage : 74.8% <br>
-                        Class 12th (2020) Percentage : 87%
-                    </div>
-                    </div>
-                </div>
-                <div id="EducationCollege">
-                    
-                    <img src="./assets/lpu.jpg" class="eduPic"> 
-                    <div class="textEducation">
-                        <div class="text1">
-                            Graduation
-                        </div>
-                        <div class="text2">
-                            Pursuing
-                        </div>
-                        <div class="text3">
-                        Lovely Professional University Phagwara, Punjab                       
-                    </div>
-                    <div class="text4">
-                        Bachelor's in Computer Science and Engineering with specialization in Full Stack Development with Upgrad
-                    </div>
-                    <div class="text5">
-                        CGPA : 8.16
-                    </div>
-                    </div>
+
+        <!-- The social media icon bar -->
+        <div class="icon-bar">
+            <a href="https://www.instagram.com/creativstan/" class="social" id="insta">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/shardulipandey/" class="social" id="linkedin">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://in.pinterest.com/creativstan/" class="social" id="pinterest">
+                <i class="fa fa-pinterest"></i>
+            </a>
+        </div>
+
+        <a id="aboutBox">
+            <div id="About">
+                <div id="AboutHead" class="head">ABOUT</div>
+                <div id="AboutBody">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eum placeat sapiente alias! Placeat veritatis architecto porro aspernatur voluptates, ipsam vero nesciunt fugiat expedita perspiciatis laborum soluta iste odit voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eum placeat sapiente alias! Placeat veritatis architecto porro aspernatur voluptates, ipsam vero nesciunt fugiat expedita perspiciatis laborum soluta iste odit voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eum placeat sapiente alias! Placeat veritatis architecto porro aspernatur voluptates, ipsam vero nesciunt fugiat expedita perspiciatis laborum soluta iste odit voluptatibus.
                 </div>
             </div>
-        </div>
-    </a>
+        </a>
 
-    
-    <script src="index.js"></script>
-</body>
+        <a id="educationBox">
+            <div id="Education">
+                <div id="EducationHead" class="head">EDUCATION</div>
+                <div id="EducationBody">
+                    <a href="https://www.mpvm.edu.in/" target="_blank">
+                        <div id="EducationSchool">
+                            <img src="./assets/mpvm.jpg" class="eduPic">
+                            <div class="textEducation">
+                                <div class="text1">
+                                    Higher Studies
+                                </div>
+                                <div class="text2">
+                                    Completed From
+                                </div>
+                                <div class="text3">
+                                    Maharshi Patanjali Vidya Mandir Prayagraj, Uttar Pradesh
+                                </div>
+                                <div class="text4">
+                                    Central Board of Secondary Education
+                                </div>
+                                <div class="text5">
+                                    Class 10th (2018) Percentage : 74.8%
+                                    <br>
+                                    Class 12th (2020) Percentage : 87%
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.lpu.in/" target="_blank">
+                        <div id="EducationCollege">
+
+                            <img src="./assets/lpu.jpg" class="eduPic">
+                            <div class="textEducation">
+                                <div class="text1">
+                                    Graduation
+                                </div>
+                                <div class="text2">
+                                    Pursuing
+                                </div>
+                                <div class="text3">
+                                    Lovely Professional University Phagwara, Punjab
+                                </div>
+                                <div class="text4">
+                                    Bachelor's in Computer Science and Engineering with specialization in Full Stack Development with Upgrad
+                                </div>
+                                <div class="text5">
+                                    CGPA : 8.16
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </a>
+
+
+        <script src="index.js"></script>
+    </body>
 </html>
