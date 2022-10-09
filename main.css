@@ -334,14 +334,14 @@ a {
   padding: 20px;
   text-align: center;
 }
-#messageSocial{
+#messageSocial {
   display: flex;
   justify-content: center;
   align-items: center;
   /* flex-direction: column; */
-  margin-top:50px ;
+  margin-top: 50px;
 }
-#social{
+#social {
   display: flex;
   justify-content: start;
   align-items: flex-start;
@@ -349,24 +349,24 @@ a {
   margin-right: 200px;
 }
 
-#githubSocial:hover{
+#githubSocial:hover {
   color: #0b7823;
   box-shadow: 0px 0px 20px 2px #0b7823;
-  }
-  #linkedinSocial:hover{
+}
+#linkedinSocial:hover {
   color: #0084ff;
   box-shadow: 0px 0px 20px 2px #0084ff;
-  }
-  #instaSocial:hover{
+}
+#instaSocial:hover {
   color: #ff0044;
   box-shadow: 0px 0px 20px 2px #ff0044;
-  }
-  #pinterestSocial:hover{
+}
+#pinterestSocial:hover {
   color: #ff0000;
   box-shadow: 0px 0px 20px 2px #ff0000;
-  }
+}
 
-.socialB{  
+.socialB {
   text-align: center;
   height: 50px;
   width: 50px;
@@ -374,6 +374,61 @@ a {
   color: rgb(0, 0, 0);
   font-size: 40px;
   border-radius: 20000px;
+}
+
+#messageBox {
+  height: 330px;
+  width: 350px;
+  padding: 20px;
+  padding-top: 50px;
+  background-color: rgba(128, 128, 128, 0.313);
+  /* margin-right: 0px; */
+  border-radius: 5px;
+}
+input {
+  width: 90%;
+  height: 15%;
+  margin-top: 10px;
+  outline: none;
+  padding-left: 13px;
+  border: 0px solid white;
+  border-radius: 5px;
+}
+
+input:focus,
+input:hover {
+  background: rgb(250, 170, 141);
+  background: linear-gradient(
+    103deg,
+    rgba(250, 170, 141, 0.7262255243894433) 0%,
+    rgba(254, 239, 221, 0.6561975131849616) 36%,
+    rgba(243, 175, 82, 0.7094188017003676) 61%,
+    rgba(255, 64, 0, 0.5889706224286589) 100%
+  );
+  color: black;
+  font-weight: bold;
+}
+
+#messageHead {
+  font-size: 40px;
+}
+
+#submitMessage{
+  margin-top: 20px;
+  height: 30px;
+  width: 30%;
+  color: white;
+  border-radius: 7px;
+  border: 0px solid black;
+  background: rgb(32,30,31);
+background: linear-gradient(103deg, rgba(32,30,31,1) 66%, rgba(165,164,164,0.5889706224286589) 100%);
+}
+
+#submitMessage:hover{
+  cursor: pointer;
+  border: 2px solid black;
+  font-weight: bold;
+  background-color: black;
 }
 
 /* DETERMINED */
