@@ -339,6 +339,7 @@ a {
   justify-content: center;
   align-items: center;
   /* flex-direction: column; */
+  margin-top:50px ;
 }
 #social{
   display: flex;
@@ -346,6 +347,33 @@ a {
   align-items: flex-start;
   flex-direction: column;
   margin-right: 200px;
+}
+
+#githubSocial:hover{
+  color: #0b7823;
+  box-shadow: 0px 0px 20px 2px #0b7823;
+  }
+  #linkedinSocial:hover{
+  color: #0084ff;
+  box-shadow: 0px 0px 20px 2px #0084ff;
+  }
+  #instaSocial:hover{
+  color: #ff0044;
+  box-shadow: 0px 0px 20px 2px #ff0044;
+  }
+  #pinterestSocial:hover{
+  color: #ff0000;
+  box-shadow: 0px 0px 20px 2px #ff0000;
+  }
+
+.socialB{  
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  border-radius: 20000px;
 }
 
 /* DETERMINED */
