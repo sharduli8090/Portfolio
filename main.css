@@ -4,56 +4,11 @@ body {
 a {
   text-decoration: none;
 }
+
+/* Menu Bar  */
 .menuAnchor {
   color: gray;
   width: 100%;
-}
-.text-btn {
-  color: #6d676b;
-}
-
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-.icon-bar {
-  position: fixed;
-  top: 40%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-/* Style the icon bar links */
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 10px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 15px;
-  background-color: #201e1f;
-}
-
-#insta:hover {
-  background-color: #e40b69;
-}
-
-#linkedin:hover {
-  background-color: #0084ff;
-}
-#github:hover {
-  background-color: #366550;
-}
-
-#pinterest:hover {
-  background-color: #ff0000;
-}
-#navBar {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  font-size: 45px;
-  font-family: "Barlow", sans-serif;
-  color: #201e1f;
-  z-index: 9;
 }
 
 #menu {
@@ -84,7 +39,54 @@ a {
   cursor: pointer;
 }
 
-#mainFlexer {
+/* Main Navigation Bar Displaying Name */
+#navBar {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Barlow", sans-serif;
+  color: #201e1f;
+  z-index: 9;
+}
+
+/* Sticky Social Media Bar */
+.icon-bar {
+  position: fixed;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+  background-color: #201e1f;
+}
+
+#insta:hover {
+  background-color: #e40b69;
+}
+
+#linkedin:hover {
+  background-color: #0084ff;
+}
+
+#github:hover {
+  background-color: #366550;
+}
+
+#pinterest:hover {
+  background-color: #ff0000;
+}
+
+/* Main Flex for Skill Bubbles */
+#mainBubbleFlex {
   display: flex;
   flex-wrap: wrap;
   margin-top: 0;
@@ -92,8 +94,7 @@ a {
   height: 700px;
 }
 
-.flexer {
-  /* margin: 0 50px ; */
+.bubble {
   border-radius: 1000px;
   font-family: "Barlow", sans-serif;
   display: flex;
@@ -103,6 +104,7 @@ a {
   position: relative;
 }
 
+/* Class for Headings */
 .head {
   font-size: 40px;
   border-bottom: 1px solid grey;
@@ -110,21 +112,8 @@ a {
   margin-bottom: 20px;
   padding-bottom: 10px;
 }
-#About {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 30px;
-}
-#AboutBody {
-  width: 50%;
-  font-size: 22px;
-  text-align: justify;
-}
-#AboutHead {
-  width: 50%;
-}
+
+/* Education Box */
 #Education {
   display: flex;
   justify-content: center;
@@ -194,6 +183,7 @@ a {
   color: black;
   font-size: 30px;
 }
+
 .text2 {
   margin-bottom: 15px;
 }
@@ -218,6 +208,26 @@ a {
   margin-top: 10px;
 }
 
+/* About Box */
+#About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+#AboutBody {
+  width: 50%;
+  font-size: 22px;
+  text-align: justify;
+}
+
+#AboutHead {
+  width: 50%;
+}
+
+/* Project Box */
 #projectHead {
   width: 70%;
 }
@@ -264,7 +274,8 @@ a {
   }
 }
 
-#me {
+/* Quote Box */
+#quote {
   width: 1000px;
   height: 200px;
   display: flex;
@@ -273,25 +284,29 @@ a {
   flex-direction: column;
   border-top: 1px solid #201e1f;
   border-bottom: 1px solid #201e1f;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-#me1 {
+
+#quote1 {
   font-size: 50px;
   font-weight: bold;
 }
-#me2 {
+
+#quote2 {
   font-size: 40px;
   margin-top: 10px;
 }
-#meBox {
-  margin: 150px;
+
+#quoteBox {
+  margin-top: 300px;
+  margin-bottom: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* flex-direction: column; */
 }
 
-#me1 {
+#quote1 {
   background-image: linear-gradient(to right, #d100c3, #00bbff 50%, #000 50%);
   background-size: 200% 100%;
   background-position: -100%;
@@ -300,7 +315,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-#me1:before {
+#quote1:before {
   content: "";
   background: #54b3d6;
   display: block;
@@ -311,15 +326,16 @@ a {
   height: 3px;
 }
 
-#me1:hover {
+#quote1:hover {
   cursor: pointer;
   background-position: 0;
 }
 
-#me1:hover::before {
+#quote1:hover::before {
   width: 100%;
 }
 
+/* Connect Box and Message Box */
 #connect {
   display: flex;
   justify-content: center;
@@ -327,6 +343,7 @@ a {
   flex-direction: column;
   width: 100%;
 }
+
 #connectHead {
   width: 600px;
   border-bottom: 0px;
@@ -334,33 +351,29 @@ a {
   padding: 20px;
   text-align: center;
 }
-#messageSocial {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* flex-direction: column; */
-  margin-top: 50px;
-}
+
 #social {
   display: flex;
   justify-content: start;
   align-items: flex-start;
   flex-direction: column;
-  margin-right: 200px;
 }
 
 #githubSocial:hover {
   color: #0b7823;
   box-shadow: 0px 0px 20px 2px #0b7823;
 }
+
 #linkedinSocial:hover {
   color: #0084ff;
   box-shadow: 0px 0px 20px 2px #0084ff;
 }
+
 #instaSocial:hover {
   color: #ff0044;
   box-shadow: 0px 0px 20px 2px #ff0044;
 }
+
 #pinterestSocial:hover {
   color: #ff0000;
   box-shadow: 0px 0px 20px 2px #ff0000;
@@ -376,15 +389,22 @@ a {
   border-radius: 20000px;
 }
 
+#messageSocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
 #messageBox {
   height: 330px;
   width: 350px;
   padding: 20px;
   padding-top: 50px;
   background-color: rgba(128, 128, 128, 0.313);
-  /* margin-right: 0px; */
   border-radius: 5px;
 }
+
 input {
   width: 90%;
   height: 15%;
@@ -413,23 +433,31 @@ input:hover {
   font-size: 40px;
 }
 
-#submitMessage{
+#submitMessage {
   margin-top: 20px;
   height: 30px;
   width: 30%;
   color: white;
   border-radius: 7px;
   border: 0px solid black;
-  background: rgb(32,30,31);
-background: linear-gradient(103deg, rgba(32,30,31,1) 66%, rgba(165,164,164,0.5889706224286589) 100%);
+  background: rgb(32, 30, 31);
+  background: linear-gradient(
+    103deg,
+    rgba(32, 30, 31, 1) 66%,
+    rgba(165, 164, 164, 0.5889706224286589) 100%
+  );
 }
 
-#submitMessage:hover{
+#submitMessage:hover {
   cursor: pointer;
   border: 2px solid black;
   font-weight: bold;
   background-color: black;
 }
+
+
+
+/* Bubbles */
 
 /* DETERMINED */
 #flex1 {
@@ -649,8 +677,7 @@ background: linear-gradient(103deg, rgba(32,30,31,1) 66%, rgba(165,164,164,0.588
   background-color: #f3af52;
   height: 380px;
   width: 380px;
-  font-size: 50px;
-  margin-right: 0;
+  font-size: 50px; 
   animation: flex5 3s ease-in-out 0s 1 reverse;
 }
 #flex5:hover {
@@ -749,4 +776,3 @@ background: linear-gradient(103deg, rgba(32,30,31,1) 66%, rgba(165,164,164,0.588
     color: black;
   }
 }
-
