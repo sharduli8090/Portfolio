@@ -2,6 +2,7 @@ body {
   font-family: "Barlow", sans-serif;
   margin: 0px;
 }
+
 a {
   text-decoration: none;
 }
@@ -14,7 +15,6 @@ a {
   font-size: 45px;
   font-family: "Barlow", sans-serif;
   color: #201e1f;
-  /* z-index: 2; */
 }
 
 /* Menu Bar  */
@@ -89,7 +89,6 @@ a {
 /* Main Flex for Skill Bubbles */
 #mainBubbleFlex {
   display: flex;
-  /* flex-wrap: wrap; */
   margin-top: 0;
   justify-content: center;
   height: auto;
@@ -627,6 +626,7 @@ input:hover {
   font-size: 37px;
   animation: flex4 3s ease-in-out 0s 1 reverse;
 }
+
 #flex4:hover {
   cursor: pointer;
   animation: flex4hover 2s ease-in-out 0s 1;
@@ -680,6 +680,7 @@ input:hover {
   font-size: 50px;
   animation: flex5 3s ease-in-out 0s 1 reverse;
 }
+
 #flex5:hover {
   cursor: pointer;
   animation: flex5hover 2s ease-in-out 0s 1;
@@ -733,6 +734,7 @@ input:hover {
   font-size: 25px;
   animation: flex6 3s ease-in-out 0s 1 reverse;
 }
+
 #flex6:hover {
   cursor: pointer;
   animation: flex6hover 2s ease-in-out 0s 1;
@@ -787,16 +789,16 @@ input:hover {
   #navBar {
     font-size: 35px;
     width: 700px;
-    /* background-color: gray; */
-    /* display: none; */
   }
+
   .menuBtn {
     font-size: 15px;
-    /* display: none;   */
   }
+
   #menu {
     width: 700px;
   }
+
   .sticky-social-icons {
     display: none;
   }
@@ -807,64 +809,27 @@ input:hover {
 
   /* Connect Box and Message Box */
   #connect {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     width: 700px;
   }
 
   #connectHead {
     width: 400px;
     border-bottom: 0px;
-    /* border-top: 1px solid #201e1f; */
     padding: 20px;
-    /* text-align: center; */
   }
 
   #social {
     width: 700px;
-    /* display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  flex-direction: column; */
   }
 
-  /* #githubSocial:hover {
-  color: #0b7823;
-  box-shadow: 0px 0px 20px 2px #0b7823;
-}
-
-#linkedinSocial:hover {
-  color: #0084ff;
-  box-shadow: 0px 0px 20px 2px #0084ff;
-}
-
-#instaSocial:hover {
-  color: #ff0044;
-  box-shadow: 0px 0px 20px 2px #ff0044;
-}
-
-#pinterestSocial:hover {
-  color: #ff0000;
-  box-shadow: 0px 0px 20px 2px #ff0000;
-} */
-
   .socialB {
-    /* text-align: center; */
     height: 50px;
     width: 50px;
     padding: 20px;
-    /* color: rgb(0, 0, 0); */
     font-size: 40px;
-    /* border-radius: 20000px; */
   }
 
   #messageSocial {
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
-    /* margin: 0px; */
     margin-top: 50px;
     margin-right: 0px;
     width: 500px;
@@ -877,33 +842,14 @@ input:hover {
     padding: 20px;
     padding-top: 50px;
     padding-right: 20px;
-    /* background-color: rgba(128, 128, 128, 0.313); */
-    /* border-radius: 5px; */
   }
 
   input {
     width: 180px;
     height: 40px;
     margin-top: 10px;
-    /* outline: none; */
     padding-left: 13px;
-    /* border: 0px solid white;
-  border-radius: 5px; */
   }
-
-  /* input:focus,
-input:hover {
-  background: rgb(250, 170, 141);
-  background: linear-gradient(
-    103deg,
-    rgba(250, 170, 141, 0.7262255243894433) 0%,
-    rgba(254, 239, 221, 0.6561975131849616) 36%,
-    rgba(243, 175, 82, 0.7094188017003676) 61%,
-    rgba(255, 64, 0, 0.5889706224286589) 100%
-  );
-  color: black;
-  font-weight: bold;
-} */
 
   #messageHead {
     font-size: 30px;
@@ -913,37 +859,12 @@ input:hover {
     margin-top: 20px;
     height: 30px;
     width: 150px;
-    /* color: white; */
-    /* border-radius: 7px; */
-    /* border: 0px solid black; */
-    /* background: rgb(32, 30, 31);
-  background: linear-gradient(
-    103deg,
-    rgba(32, 30, 31, 1) 66%,
-    rgba(165, 164, 164, 0.5889706224286589) 100%
-  ); */
   }
-  /* 
-#submitMessage:hover {
-  cursor: pointer;
-  border: 2px solid black;
-  font-weight: bold;
-  background-color: black;
-}
- */
 
   /* Quote Box */
   #quote {
     width: 700px;
     height: 150px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-top: 1px solid #201e1f;
-  border-bottom: 1px solid #201e1f; */
-    /* padding-top: 20px;
-  padding-bottom: 20px; */
     margin: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -958,48 +879,14 @@ input:hover {
     width: 700px;
     margin-top: 200px;
     margin-bottom: 200px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
   }
 
   #quote1 {
     font-size: 40px;
-    /* font-weight: bold; */
-    /* background-image: linear-gradient(to right, #d100c3, #00bbff 50%, #000 50%);
-  background-size: 200% 100%;
-  background-position: -100%; */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-    /* transition: all 0.3s ease-in-out; */
   }
-
-  /* #quote1:before {
-  content: "";
-  background: #54b3d6;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-} */
-
-  /* #quote1:hover {
-  cursor: pointer;
-  background-position: 0;
-} */
-
-  /* #quote1:hover::before {
-  width: 100%;
-} */
 
   /* About Box */
   #About {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     margin: 30px;
     width: 700px;
   }
@@ -1020,7 +907,6 @@ input:hover {
   }
 
   /* Project Box */
-
   #projectBox {
     width: 700px;
     display: flex;
@@ -1029,19 +915,13 @@ input:hover {
     margin-top: 100px;
   }
   #project {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     width: 700px;
   }
 
   #projectCards {
     width: 500px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; */
   }
 
   .imgProject {
@@ -1051,6 +931,7 @@ input:hover {
     border-radius: 6px;
     box-shadow: 5px 5px 20px 0px black;
   }
+
   .imgProject:hover {
     cursor: pointer;
     animation: exp 5s ease-in-out 0s 5;
@@ -1072,7 +953,6 @@ input:hover {
   }
 
   #projectHead {
-    /* width: 550px; */
     margin: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1080,19 +960,11 @@ input:hover {
 
   /* Education Box */
   #Education {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     margin-top: 200px;
     width: 700px;
   }
 
   #EducationBody {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     width: 600px;
   }
 
@@ -1102,14 +974,7 @@ input:hover {
 
   #EducationSchool,
   #EducationCollege {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px; */
-    /* flex-direction: row; */
-    /* box-shadow: 10px 20px 20px 0px black; */
     padding-right: 20px;
-    /* padding: none; */
     margin-bottom: 70px;
   }
 
@@ -1119,10 +984,6 @@ input:hover {
     margin: 0px;
     margin-right: 45px;
   }
-  /* .eduPic:hover {
-  cursor: pointer;
-  animation: expander 10s ease-in-out 0s 1;
-} */
 
   @keyframes expander {
     0% {
@@ -1139,14 +1000,7 @@ input:hover {
     }
   }
 
-  /* .headTextEducation { */
-  /* color: black; */
-  /* font-size: 27px; */
-  /* font-weight: bold; */
-  /* } */
-
   .text1 {
-    /* color: black; */
     font-size: 25px;
   }
 
@@ -1155,20 +1009,16 @@ input:hover {
   }
 
   .text3 {
-    /* color: black; */
     font-size: 17px;
     margin-left: 17px;
-    /* font-weight: bold; */
   }
 
   .text4 {
-    /* color: black; */
     font-size: 16px;
     margin-left: 16px;
   }
 
   .text5 {
-    /* color: black; */
     font-size: 14px;
     margin-left: 16px;
     margin-top: 8px;
@@ -1192,6 +1042,7 @@ input:hover {
     font-size: 23px;
     animation: flex3 3s ease-in-out 0s 1 reverse;
   }
+
   #flex3:hover {
     cursor: pointer;
     animation: flex3hover 2s ease-in-out 0s 1;
@@ -1246,6 +1097,7 @@ input:hover {
     font-size: 22px;
     animation: flex6 3s ease-in-out 0s 1 reverse;
   }
+
   #flex6:hover {
     cursor: pointer;
     animation: flex6hover 2s ease-in-out 0s 1;
@@ -1300,6 +1152,7 @@ input:hover {
     font-size: 27px;
     animation: flex4 3s ease-in-out 0s 1 reverse;
   }
+
   #flex4:hover {
     cursor: pointer;
     animation: flex4hover 2s ease-in-out 0s 1;
@@ -1355,6 +1208,7 @@ input:hover {
     font-size: 30px;
     animation: flex5 3s ease-in-out 0s 1 reverse;
   }
+
   #flex5:hover {
     cursor: pointer;
     animation: flex5hover 2s ease-in-out 0s 1;
@@ -1517,12 +1371,12 @@ input:hover {
   #navBar {
     font-size: 40px;
     width: 1000px;
-    /* background-color: gray; */
-    /* display: none; */
   }
+
   .menuBtn {
     font-size: 17px;
   }
+
   .sticky-social-icons {
     display: none;
   }
@@ -1537,64 +1391,27 @@ input:hover {
 
   /* Connect Box and Message Box */
   #connect {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     width: 1000px;
   }
 
   #connectHead {
     width: 400px;
     border-bottom: 0px;
-    /* border-top: 1px solid #201e1f; */
     padding: 20px;
-    /* text-align: center; */
   }
 
   #social {
     width: 1000px;
-    /* display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  flex-direction: column; */
   }
 
-  /* #githubSocial:hover {
-  color: #0b7823;
-  box-shadow: 0px 0px 20px 2px #0b7823;
-}
-
-#linkedinSocial:hover {
-  color: #0084ff;
-  box-shadow: 0px 0px 20px 2px #0084ff;
-}
-
-#instaSocial:hover {
-  color: #ff0044;
-  box-shadow: 0px 0px 20px 2px #ff0044;
-}
-
-#pinterestSocial:hover {
-  color: #ff0000;
-  box-shadow: 0px 0px 20px 2px #ff0000;
-} */
-
   .socialB {
-    /* text-align: center; */
     height: 50px;
     width: 50px;
     padding: 20px;
-    /* color: rgb(0, 0, 0); */
     font-size: 40px;
-    /* border-radius: 20000px; */
   }
 
   #messageSocial {
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
-    /* margin: 0px; */
     margin-top: 50px;
     margin-right: 0px;
     width: 700px;
@@ -1607,33 +1424,14 @@ input:hover {
     padding: 20px;
     padding-top: 50px;
     padding-right: 20px;
-    /* background-color: rgba(128, 128, 128, 0.313); */
-    /* border-radius: 5px; */
   }
 
   input {
     width: 250px;
     height: 40px;
     margin-top: 10px;
-    /* outline: none; */
     padding-left: 13px;
-    /* border: 0px solid white;
-  border-radius: 5px; */
   }
-
-  /* input:focus,
-input:hover {
-  background: rgb(250, 170, 141);
-  background: linear-gradient(
-    103deg,
-    rgba(250, 170, 141, 0.7262255243894433) 0%,
-    rgba(254, 239, 221, 0.6561975131849616) 36%,
-    rgba(243, 175, 82, 0.7094188017003676) 61%,
-    rgba(255, 64, 0, 0.5889706224286589) 100%
-  );
-  color: black;
-  font-weight: bold;
-} */
 
   #messageHead {
     font-size: 33px;
@@ -1643,29 +1441,12 @@ input:hover {
     margin-top: 20px;
     height: 30px;
     width: 150px;
-    /* color: white; */
-    /* border-radius: 7px; */
-    /* border: 0px solid black; */
-    /* background: rgb(32, 30, 31);
-  background: linear-gradient(
-    103deg,
-    rgba(32, 30, 31, 1) 66%,
-    rgba(165, 164, 164, 0.5889706224286589) 100%
-  ); */
   }
 
   /* Quote Box */
   #quote {
     width: 1000px;
     height: 200px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-top: 1px solid #201e1f;
-  border-bottom: 1px solid #201e1f; */
-    /* padding-top: 20px;
-  padding-bottom: 20px; */
     margin: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1680,28 +1461,14 @@ input:hover {
     width: 1000px;
     margin-top: 200px;
     margin-bottom: 200px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
   }
 
   #quote1 {
     font-size: 40px;
-    /* font-weight: bold; */
-    /* background-image: linear-gradient(to right, #d100c3, #00bbff 50%, #000 50%);
-  background-size: 200% 100%;
-  background-position: -100%; */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-    /* transition: all 0.3s ease-in-out; */
   }
 
   /* About Box */
   #About {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     margin: 30px;
     width: 1000px;
   }
@@ -1717,7 +1484,6 @@ input:hover {
   }
 
   /* Project Box */
-
   #projectBox {
     width: 1000px;
     display: flex;
@@ -1725,31 +1491,24 @@ input:hover {
     align-items: center;
     margin-top: 100px;
   }
+
   #project {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     width: 1000px;
   }
 
   #projectCards {
     width: 1000px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; */
   }
 
   .imgProject {
     height: 200px;
     width: 400px;
     margin: 30px;
-    /* border-radius: 6px; */
-    /* box-shadow: 5px 5px 20px 0px black; */
   }
+
   .imgProject:hover {
-    /* cursor: pointer; */
     animation: exp 5s ease-in-out 0s 5;
   }
 
@@ -1769,7 +1528,6 @@ input:hover {
   }
 
   #projectHead {
-    /* width: 550px; */
     margin: 150px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1777,19 +1535,11 @@ input:hover {
 
   /* Education Box */
   #Education {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     margin-top: 200px;
     width: 1000px;
   }
 
   #EducationBody {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     width: 700px;
   }
 
@@ -1799,14 +1549,7 @@ input:hover {
 
   #EducationSchool,
   #EducationCollege {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px; */
-    /* flex-direction: row; */
-    /* box-shadow: 10px 20px 20px 0px black; */
     padding-right: 17px;
-    /* padding: none; */
     margin-bottom: 70px;
   }
 
@@ -1816,10 +1559,6 @@ input:hover {
     margin: 0px;
     margin-right: 45px;
   }
-  /* .eduPic:hover {
-  cursor: pointer;
-  animation: expander 10s ease-in-out 0s 1;
-} */
 
   @keyframes expander {
     0% {
@@ -1836,14 +1575,7 @@ input:hover {
     }
   }
 
-  /* .headTextEducation { */
-  /* color: black; */
-  /* font-size: 27px; */
-  /* font-weight: bold; */
-  /* } */
-
   .text1 {
-    /* color: black; */
     font-size: 25px;
   }
 
@@ -1852,20 +1584,16 @@ input:hover {
   }
 
   .text3 {
-    /* color: black; */
     font-size: 17px;
     margin-left: 17px;
-    /* font-weight: bold; */
   }
 
   .text4 {
-    /* color: black; */
     font-size: 16px;
     margin-left: 16px;
   }
 
   .text5 {
-    /* color: black; */
     font-size: 14px;
     margin-left: 16px;
     margin-top: 8px;
@@ -2045,7 +1773,6 @@ input:hover {
   #flex5 {
     margin: 0px;
     margin-left: 195px;
-    /* margin-right: 130px;  */
     margin-bottom: 20px;
     background-color: #f3af52;
     height: 280px;
@@ -2217,9 +1944,8 @@ input:hover {
   #navBar {
     font-size: 40px;
     width: 1200px;
-    /* background-color: gray; */
-    /* display: none; */
   }
+
   .menuBtn {
     font-size: 17px;
   }
@@ -2234,64 +1960,27 @@ input:hover {
 
   /* Connect Box and Message Box */
   #connect {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     width: 1200px;
   }
 
   #connectHead {
     width: 400px;
     border-bottom: 0px;
-    /* border-top: 1px solid #201e1f; */
     padding: 20px;
-    /* text-align: center; */
   }
 
   #social {
     width: 1200px;
-    /* display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  flex-direction: column; */
   }
 
-  /* #githubSocial:hover {
-  color: #0b7823;
-  box-shadow: 0px 0px 20px 2px #0b7823;
-}
-
-#linkedinSocial:hover {
-  color: #0084ff;
-  box-shadow: 0px 0px 20px 2px #0084ff;
-}
-
-#instaSocial:hover {
-  color: #ff0044;
-  box-shadow: 0px 0px 20px 2px #ff0044;
-}
-
-#pinterestSocial:hover {
-  color: #ff0000;
-  box-shadow: 0px 0px 20px 2px #ff0000;
-} */
-
   .socialB {
-    /* text-align: center; */
     height: 50px;
     width: 50px;
     padding: 20px;
-    /* color: rgb(0, 0, 0); */
     font-size: 40px;
-    /* border-radius: 20000px; */
   }
 
   #messageSocial {
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
-    /* margin: 0px; */
     margin-top: 50px;
     margin-right: 0px;
     width: 800px;
@@ -2304,33 +1993,14 @@ input:hover {
     padding: 20px;
     padding-top: 50px;
     padding-right: 20px;
-    /* background-color: rgba(128, 128, 128, 0.313); */
-    /* border-radius: 5px; */
   }
 
   input {
     width: 250px;
     height: 40px;
     margin-top: 10px;
-    /* outline: none; */
     padding-left: 13px;
-    /* border: 0px solid white;
-  border-radius: 5px; */
   }
-
-  /* input:focus,
-input:hover {
-  background: rgb(250, 170, 141);
-  background: linear-gradient(
-    103deg,
-    rgba(250, 170, 141, 0.7262255243894433) 0%,
-    rgba(254, 239, 221, 0.6561975131849616) 36%,
-    rgba(243, 175, 82, 0.7094188017003676) 61%,
-    rgba(255, 64, 0, 0.5889706224286589) 100%
-  );
-  color: black;
-  font-weight: bold;
-} */
 
   #messageHead {
     font-size: 35px;
@@ -2340,29 +2010,12 @@ input:hover {
     margin-top: 20px;
     height: 30px;
     width: 150px;
-    /* color: white; */
-    /* border-radius: 7px; */
-    /* border: 0px solid black; */
-    /* background: rgb(32, 30, 31);
-  background: linear-gradient(
-    103deg,
-    rgba(32, 30, 31, 1) 66%,
-    rgba(165, 164, 164, 0.5889706224286589) 100%
-  ); */
   }
 
   /* Quote Box */
   #quote {
     width: 1200px;
     height: 200px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-top: 1px solid #201e1f;
-  border-bottom: 1px solid #201e1f; */
-    /* padding-top: 20px;
-  padding-bottom: 20px; */
     margin: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -2377,28 +2030,14 @@ input:hover {
     width: 1200px;
     margin-top: 250px;
     margin-bottom: 250px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
   }
 
   #quote1 {
     font-size: 40px;
-    /* font-weight: bold; */
-    /* background-image: linear-gradient(to right, #d100c3, #00bbff 50%, #000 50%);
-  background-size: 200% 100%;
-  background-position: -100%; */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-    /* transition: all 0.3s ease-in-out; */
   }
 
   /* About Box */
   #About {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     margin: 30px;
     width: 1200px;
   }
@@ -2414,7 +2053,6 @@ input:hover {
   }
 
   /* Project Box */
-
   #projectBox {
     width: 1200px;
     display: flex;
@@ -2423,30 +2061,22 @@ input:hover {
     margin-top: 100px;
   }
   #project {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     width: 1200px;
   }
 
   #projectCards {
     width: 1200px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; */
   }
 
   .imgProject {
     height: 200px;
     width: 400px;
     margin: 30px;
-    /* border-radius: 6px; */
-    /* box-shadow: 5px 5px 20px 0px black; */
   }
+
   .imgProject:hover {
-    /* cursor: pointer; */
     animation: exp 5s ease-in-out 0s 5;
   }
 
@@ -2466,7 +2096,6 @@ input:hover {
   }
 
   #projectHead {
-    /* width: 550px; */
     margin: 150px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -2474,19 +2103,11 @@ input:hover {
 
   /* Education Box */
   #Education {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     margin-top: 200px;
     width: 1200px;
   }
 
   #EducationBody {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     width: 700px;
   }
 
@@ -2496,14 +2117,7 @@ input:hover {
 
   #EducationSchool,
   #EducationCollege {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px; */
-    /* flex-direction: row; */
-    /* box-shadow: 10px 20px 20px 0px black; */
     padding-right: 17px;
-    /* padding: none; */
     margin-bottom: 70px;
   }
 
@@ -2513,10 +2127,6 @@ input:hover {
     margin: 0px;
     margin-right: 45px;
   }
-  /* .eduPic:hover {
-  cursor: pointer;
-  animation: expander 10s ease-in-out 0s 1;
-} */
 
   @keyframes expander {
     0% {
@@ -2533,14 +2143,7 @@ input:hover {
     }
   }
 
-  /* .headTextEducation { */
-  /* color: black; */
-  /* font-size: 27px; */
-  /* font-weight: bold; */
-  /* } */
-
   .text1 {
-    /* color: black; */
     font-size: 25px;
   }
 
@@ -2549,20 +2152,16 @@ input:hover {
   }
 
   .text3 {
-    /* color: black; */
     font-size: 17px;
     margin-left: 17px;
-    /* font-weight: bold; */
   }
 
   .text4 {
-    /* color: black; */
     font-size: 16px;
     margin-left: 16px;
   }
 
   .text5 {
-    /* color: black; */
     font-size: 14px;
     margin-left: 16px;
     margin-top: 8px;
@@ -2583,7 +2182,6 @@ input:hover {
     width: 200px;
     margin: 0px;
     margin-left: 50px;
-    /* margin-right: 20px; */
     font-size: 34px;
     animation: flex3 3s ease-in-out 0s 1 reverse;
   }
@@ -2689,7 +2287,6 @@ input:hover {
   /* PHOTOGRAPHY */
   #flex4 {
     margin: 0px;
-    /* margin-left: 10px;  */
     margin-right: 20px;
     height: 250px;
     width: 250px;
@@ -2743,9 +2340,6 @@ input:hover {
   /*  COMPUTER */
   #flex5 {
     margin: 0px;
-    /* margin-left: 93px; */
-    /* margin-right: 130px;  */
-    /* margin-bottom: 20px; */
     background-color: #f3af52;
     height: 300px;
     width: 300px;
@@ -2916,12 +2510,12 @@ input:hover {
   #navBar {
     font-size: 45px;
     width: 1500px;
-    /* background-color: gray; */
-    /* display: none; */
   }
+
   .menuBtn {
     font-size: 20px;
   }
+
   #menu {
     width: 1500px;
   }
@@ -2932,64 +2526,27 @@ input:hover {
 
   /* Connect Box and Message Box */
   #connect {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     width: 1500px;
   }
 
   #connectHead {
     width: 500px;
     border-bottom: 0px;
-    /* border-top: 1px solid #201e1f; */
     padding: 20px;
-    /* text-align: center; */
   }
 
   #social {
     width: 1500px;
-    /* display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  flex-direction: column; */
   }
 
-  /* #githubSocial:hover {
-  color: #0b7823;
-  box-shadow: 0px 0px 20px 2px #0b7823;
-}
-
-#linkedinSocial:hover {
-  color: #0084ff;
-  box-shadow: 0px 0px 20px 2px #0084ff;
-}
-
-#instaSocial:hover {
-  color: #ff0044;
-  box-shadow: 0px 0px 20px 2px #ff0044;
-}
-
-#pinterestSocial:hover {
-  color: #ff0000;
-  box-shadow: 0px 0px 20px 2px #ff0000;
-} */
-
   .socialB {
-    /* text-align: center; */
     height: 50px;
     width: 50px;
     padding: 20px;
-    /* color: rgb(0, 0, 0); */
     font-size: 40px;
-    /* border-radius: 20000px; */
   }
 
   #messageSocial {
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
-    /* margin: 0px; */
     margin-top: 50px;
     margin-right: 0px;
     width: 800px;
@@ -3002,33 +2559,14 @@ input:hover {
     padding: 20px;
     padding-top: 50px;
     padding-right: 20px;
-    /* background-color: rgba(128, 128, 128, 0.313); */
-    /* border-radius: 5px; */
   }
 
   input {
     width: 250px;
     height: 40px;
     margin-top: 10px;
-    /* outline: none; */
     padding-left: 13px;
-    /* border: 0px solid white;
-  border-radius: 5px; */
   }
-
-  /* input:focus,
-input:hover {
-  background: rgb(250, 170, 141);
-  background: linear-gradient(
-    103deg,
-    rgba(250, 170, 141, 0.7262255243894433) 0%,
-    rgba(254, 239, 221, 0.6561975131849616) 36%,
-    rgba(243, 175, 82, 0.7094188017003676) 61%,
-    rgba(255, 64, 0, 0.5889706224286589) 100%
-  );
-  color: black;
-  font-weight: bold;
-} */
 
   #messageHead {
     font-size: 40px;
@@ -3038,29 +2576,12 @@ input:hover {
     margin-top: 20px;
     height: 30px;
     width: 150px;
-    /* color: white; */
-    /* border-radius: 7px; */
-    /* border: 0px solid black; */
-    /* background: rgb(32, 30, 31);
-  background: linear-gradient(
-    103deg,
-    rgba(32, 30, 31, 1) 66%,
-    rgba(165, 164, 164, 0.5889706224286589) 100%
-  ); */
   }
 
   /* Quote Box */
   #quote {
     width: 1500px;
     height: 200px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-top: 1px solid #201e1f;
-  border-bottom: 1px solid #201e1f; */
-    /* padding-top: 20px;
-  padding-bottom: 20px; */
     margin: 150px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -3075,28 +2596,14 @@ input:hover {
     width: 1500px;
     margin-top: 250px;
     margin-bottom: 250px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
   }
 
   #quote1 {
     font-size: 40px;
-    /* font-weight: bold; */
-    /* background-image: linear-gradient(to right, #d100c3, #00bbff 50%, #000 50%);
-  background-size: 200% 100%;
-  background-position: -100%; */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-    /* transition: all 0.3s ease-in-out; */
   }
 
   /* About Box */
   #About {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     margin: 30px;
     width: 1500px;
   }
@@ -3112,7 +2619,6 @@ input:hover {
   }
 
   /* Project Box */
-
   #projectBox {
     width: 1500px;
     display: flex;
@@ -3120,31 +2626,24 @@ input:hover {
     align-items: center;
     margin-top: 100px;
   }
+
   #project {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     width: 1500px;
   }
 
   #projectCards {
     width: 1500px;
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; */
   }
 
   .imgProject {
     height: 200px;
     width: 400px;
     margin: 30px;
-    /* border-radius: 6px; */
-    /* box-shadow: 5px 5px 20px 0px black; */
   }
+
   .imgProject:hover {
-    /* cursor: pointer; */
     animation: exp 5s ease-in-out 0s 5;
   }
 
@@ -3163,29 +2662,13 @@ input:hover {
     }
   }
 
-  /* #projectHead { */
-  /* width: 550px; */
-  /* margin: 50px; */
-  /* margin-top: 0px;
-  margin-bottom: 0px;
-}
- */
-
   /* Education Box */
   #Education {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     margin-top: 200px;
     width: 1500px;
   }
 
   #EducationBody {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
     width: 700px;
   }
 
@@ -3195,14 +2678,7 @@ input:hover {
 
   #EducationSchool,
   #EducationCollege {
-    /* display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px; */
-    /* flex-direction: row; */
-    /* box-shadow: 10px 20px 20px 0px black; */
     padding-right: 17px;
-    /* padding: none; */
     margin-bottom: 70px;
   }
 
@@ -3212,10 +2688,6 @@ input:hover {
     margin: 0px;
     margin-right: 45px;
   }
-  /* .eduPic:hover {
-  cursor: pointer;
-  animation: expander 10s ease-in-out 0s 1;
-} */
 
   @keyframes expander {
     0% {
@@ -3232,14 +2704,7 @@ input:hover {
     }
   }
 
-  /* .headTextEducation { */
-  /* color: black; */
-  /* font-size: 27px; */
-  /* font-weight: bold; */
-  /* } */
-
   .text1 {
-    /* color: black; */
     font-size: 25px;
   }
 
@@ -3248,20 +2713,16 @@ input:hover {
   }
 
   .text3 {
-    /* color: black; */
     font-size: 17px;
     margin-left: 17px;
-    /* font-weight: bold; */
   }
 
   .text4 {
-    /* color: black; */
     font-size: 16px;
     margin-left: 16px;
   }
 
   .text5 {
-    /* color: black; */
     font-size: 14px;
     margin-left: 16px;
     margin-top: 8px;
@@ -3282,7 +2743,6 @@ input:hover {
     width: 220px;
     margin: 0px;
     margin-left: 50px;
-    /* margin-right: 20px; */
     font-size: 36px;
     animation: flex3 3s ease-in-out 0s 1 reverse;
   }
@@ -3388,7 +2848,6 @@ input:hover {
   /* PHOTOGRAPHY */
   #flex4 {
     margin: 0px;
-    /* margin-left: 10px;  */
     margin-right: 20px;
     height: 270px;
     width: 270px;
@@ -3444,7 +2903,6 @@ input:hover {
     margin: 0px;
     margin-left: 20px;
     margin-right: 80px;
-    /* margin-bottom: 20px; */
     background-color: #f3af52;
     height: 340px;
     width: 340px;
