@@ -228,6 +228,52 @@ a {
   width: 50%;
 }
 
+/* Internship Box */
+#internship{
+  margin-top: 20vw;
+}
+.logo{
+  height: 15vw;
+  width: auto;
+}
+#internFlex{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 55vw;
+  margin-top: 60px;
+}
+.profileIntern{
+  font-weight: bold;
+  font-size: 3vw;
+  margin: 7vw 0;
+  text-align: left;
+}
+.profileIntern:hover{
+  animation: col 1.5s ease-in-out 0s 5;
+  cursor: pointer;
+}
+@keyframes col {
+  0% {
+    color: rgb(237, 107, 52);
+  }
+  100% {
+    color: #000;
+  } 
+}
+.dutosName{
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin-left: 3vw; 
+}
+.lineIntern{
+  background-color: #aeaeae;
+  height: 300px;
+  width: 2px;
+  margin-left: 50px;
+  margin-right: 60px;
+}
+
 /* Project Box */
 #projectHead {
   width: 70%;
@@ -901,6 +947,38 @@ input:hover {
     width: 500px;
   }
 
+  /* Internship */ 
+  .logo{
+    height: 40vw; 
+    margin: 0;
+  }
+  #internFlex{ 
+    flex-direction: column;
+    width: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profileIntern{
+    font-weight: bold;
+    font-size: 10vw;
+    margin: 30PX;
+    text-align: center;
+  }
+  .dutosName{
+    font-weight: bold;
+    font-size: 5vw;
+    margin-top: 15vw; 
+  }
+  .lineIntern{
+    display: none;
+  }
+  .logoDutos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+
   /* Class for Headings */
   .head {
     font-size: 35px;
@@ -962,6 +1040,7 @@ input:hover {
   #Education {
     margin-top: 200px;
     width: 700px;
+    
   }
 
   #EducationBody {
@@ -1465,6 +1544,39 @@ input:hover {
 
   #quote1 {
     font-size: 40px;
+  }
+
+  
+  /* Internship */ 
+  .logo{
+    height: 40vw; 
+    margin: 0;
+  }
+  #internFlex{ 
+    flex-direction: column;
+    width: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profileIntern{
+    font-weight: bold;
+    font-size: 10vw;
+    margin: 30PX;
+    text-align: center;
+  }
+  .dutosName{
+    font-weight: bold;
+    font-size: 5vw;
+    margin-top: 15vw; 
+  }
+  .lineIntern{
+    display: none;
+  }
+  .logoDutos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
   }
 
   /* About Box */
@@ -2012,6 +2124,37 @@ input:hover {
     width: 150px;
   }
 
+  /* Internship */ 
+  .logo{
+    height: 40vw; 
+    margin: 0;
+  }
+  #internFlex{ 
+    flex-direction: column;
+    width: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profileIntern{
+    font-weight: bold;
+    font-size: 10vw;
+    margin: 30PX;
+    text-align: center;
+  }
+  .dutosName{
+    font-weight: bold;
+    font-size: 5vw;
+    margin-top: 15vw; 
+  }
+  .lineIntern{
+    display: none;
+  }
+  .logoDutos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+  }
   /* Quote Box */
   #quote {
     width: 1200px;
