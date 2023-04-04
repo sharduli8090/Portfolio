@@ -29,7 +29,7 @@
                 document.getElementById("nameMessage").value ="";
                 document.getElementById("descMessage").value ="";
 
-                console.log(nameMessage);
+                // console.log(nameMessage);
 
                 // Adding time stamp and changing status
                 let timeStamp = Date.now();
